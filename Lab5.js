@@ -1,4 +1,4 @@
-// 1. Нова реалізація послідовності функцій
+
 function seq(...steps) {
   return function (start) {
     let current = start;
@@ -27,4 +27,5 @@ console.log(
     x => x * 3,
     x => x - 6
   )(10)
+
 ); // 27
